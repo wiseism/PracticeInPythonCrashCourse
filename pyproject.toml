@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "practiceinpythoncrashcourse"
+version = "0.1.0"
+description = ""
+authors = ["someXXYY <betaXXX@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+[tool.poetry.scripts]
+chpt2 = "chpt2practice:main"
+chpt3 = "chpt3practice:main"
+chpt4 = "chpt4practice:main"
+chpt5 = "chpt5practice:main"
+chpt6 = "chpt6practice:main"
+chpt7 = "chpt7practice:main"
+chpt8 = "chpt8practice.chpt8practice:main"
+chpt9 = "chpt9practice.chpt9practice:main"
+chpt10 = "chpt10practice.chpt10practice:main"
+chpt11 = "chpt11practice:main"
+chpt12 = "chpt12pracctice.chpt12practice:main"
+chpt15 = "chpt15practice.chpt15practice:main"
+chpt16 = "chpt16practice:main"
+chpt17 = "chpt17practice.chpt17practice:main"
+chpt18 = "chpt18practice.chpt18practice:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
